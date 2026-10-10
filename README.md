@@ -1,6 +1,6 @@
 # SGSI Grupo 3 — Proyecto Final (Estándares de Seguridad, UMG)
 
-Repositorio del Grupo 3 del curso Estándares de Seguridad (Maestría en Seguridad Informática, UMG). El proyecto es el diseño e implementación de un Sistema de Gestión de Seguridad de la Información (SGSI) para la Universidad Mariano Sanchez (escenario ficticio), coordinado a partir de un documento maestro del proyecto.
+Repositorio del Grupo 3 del curso Estándares de Seguridad (Maestría en Seguridad Informática, UMG). El proyecto es el diseño e implementación de un Sistema de Gestión de Seguridad de la Información (SGSI) para la Universidad Mariano Sanchez (escenario ficticio del sector educación), guiado por un documento maestro del proyecto.
 
 ## Roles del equipo
 
@@ -13,17 +13,11 @@ Repositorio del Grupo 3 del curso Estándares de Seguridad (Maestría en Segurid
 
 ## Contenido
 
-- `integrante2/`: módulo de Huéspedes en C++ (integrante 2).
-  - `Huesped.h`: declara `contarHuespedesRegistrados` y `buscarHuespedPorNombre`.
-  - `Huesped.cpp`: el conteo incluye a todos los huéspedes, y la búsqueda es por nombre parcial sin distinguir mayúsculas; devuelve la posición del primero que coincide o -1.
-  - `prueba_integrante2.cpp`: pruebas con resultados conocidos.
+- `documento/Guia_Maestra_Proyecto_Final_SGSI_Grupo3.docx`: documento maestro (guía y plantilla de trabajo interno, versión de 59 páginas con la portada elegida).
+- `documento/Guia_Maestra_Proyecto_Final_SGSI_Grupo3.pdf`: vista en PDF del mismo documento.
+- `plan/plan_equipo_sgsi.md`: plan de coordinación del equipo (roles, pendientes con plazos y reporte paso a paso).
 
-El `struct Huesped` del encabezado es de referencia: al integrar, se usa el struct que ya existe en el proyecto.
+## Reglas
 
-## Compilar y probar
-
-```bash
-cd integrante2
-g++ -Wall -Wextra -o prueba prueba_integrante2.cpp Huesped.cpp
-./prueba
-```
+- Ningún cambio se da por final sin la aprobación de kiva.
+- No se publican evidencias ni resultados inventados.
